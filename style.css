@@ -1,0 +1,52 @@
+/* ----- globals ----- */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --glb-font: sans-serif;
+
+  /* absolute font sizes (8px grid system) */
+  --xs: 4px;
+  --s: 8px;
+  --ms: 12px;
+  --m: 16px;
+  --ml: 20px;
+  --l: 24px;
+  --xl: 32px;
+}
+
+/* ----- general styles ------ */
+
+body {
+  width: 100vw;
+  height: 100%;
+  background: rgb(68, 73, 78);
+  color: aliceblue;
+}
+
+section {
+  display: block;
+  margin: 0.8rem auto;
+  width: 85vmin;
+  font-family: var(--glb-font);
+  font-size: 2rem;
+}
+
+#game-board {
+  display: block;
+  height: 85vmin;
+  width: 85vmin;
+  background-color: black;
+  border: var(--s) solid grey;
+  margin: 0 auto;
+}
+
+#score-board {
+  font-family: var(--glb-font);
+  color: rgb(11, 230, 11);
+  font-size: 500;
+}

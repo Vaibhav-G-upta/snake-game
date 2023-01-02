@@ -1,0 +1,17 @@
+{
+  "name": "snakegame",
+  "version": "1.0.0",
+  "description": "90s snake game",
+  "main": "./app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vaibhav Gupta <vaibhavgupta3070@gmail.com> (GITHUB)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "GITHUB PROJECT LINK"
+  }
+}
